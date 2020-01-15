@@ -1,0 +1,112 @@
+The link to codepen project: https://codepen.io/adhsams/pen/bGNKEmB?editors=1000
+1. What is Semantic HTML? 
+   HTML semantic is meant to give your HTML documents meaning so humans and computers can understand its content. 
+   It also makes it easier for screen-readers and SEO's to interpret your doc.
+    
+2. What is HTML used for? 
+   It is the structure behind all digital documents displayed on the WWW. It is needed to create any digital document.
+    
+3. What is an attribute and where do we put it? 
+   An attribute can be placed on any element to provide additional information on that element. 
+   They are placed in the opening tag of an element in a name="value" pair.    
+
+4. What is the h1 tag used for? How many times should I use it on a page?
+   An h1 tag is used to identify the most improtant information on an HTML doc. It should only be used once.
+
+5. Name two tags that have required attributes. The <img> and <a>.
+
+6. What do we put in the head of our HTML document?  Metadata, <title>, <style> with Css style sheets doc.
+    
+7. What is an id? An id is an attribute that places an unique value(name) on an element. The value(name) must be specific to that element 
+and can only be used once in a document. We can use an id to style w/ CSS or manipulate it w/ JS
+ 
+8. What elements can I  add an id to? An id can be used on any HTML element.
+    
+9. How many times can I use the same id on a page? Only once.
+
+10. What is a class? A class is an attribute.
+
+11. What elements can I add a class to? You can add a class to any HTML element.
+
+12. How many times can I use the same class on a page? Multiple times
+
+13. How do I get my link to open in a new tab? With the target="_blank";
+
+14. What is the alt attribute used for? Its for screen readers to read an image if it doesn't load and 
+    for SEO's.
+
+15. How do I reference an id?
+
+16. What is the difference between a section and a div? The difference is a <section> is specific HTML semantics 
+    and acts as a group container. A div is a generic non specific way to divide an HTML doc, used best for 
+    CSS styling.
+
+17. What is CSS used for? Its used to style an HTML document.
+
+18. How to we select an element? Example - every h2 on the page? h2 {}
+
+19. What is the difference between a class and an id? - Give me an example of when I might use each one?
+    You can a the same class on multiple element for grouping together those elements, for instance on a list. 
+    An id is more specific and can only be used once on a document, so we could use one on a nav, that would 
+    need an id to link it to a target attribute that sends a user to another part of the document. 
+
+20. How do we select classes in CSS? .class {}
+
+21. How do we select a p element with a single class of “human”? p.human {}
+
+22. What is a parent child selector? When would this be useful? A parent child relationship is created when 
+    we nest an element within another element. It's useful to add specificity when styling elements in CSS.
+
+23. How do you select all links within a div with the class of sidebar? div a.sidebar {}
+
+24. What is a pseudo selector? It changes the state of element, like when we use hover.
+
+25. What do we use to change the spacing between lines? The line-height property.
+
+26. What do we use to change the spacing between letters? The letter-spacing property.
+
+27. What do we use to to change everything to CAPITALS? lowercase? Capitalize? The text-transformation property.
+
+28. How do I add a 1px border around my div that is dotted and black? Like so: border: 1px dotted black;
+
+29. How do I select everything on the page? We can use the * universal selector.
+
+30. How do I write a comment in CSS? /* */
+
+31. How do I find out what file I am in, when I am using the command line? pwr
+
+32. Using the command line - how do I see a list of files/folders in my current folder? ls
+
+33. How do I remove a file via the command line? Why do I have to be careful with this? rm, once the file/folder is deleted its gone forever 
+the terminal doesn't give a warning for the user to pay attention to what file/folder they are deleting. 
+
+34. Why should I use version control? It allows for mutiple individuals or teams to work simultaneously, while tracking and storing everyones
+    progress within a project/branch. It gives us the ability to go to any point in the construction of a project. 
+
+35. How often should I commit to github? Often
+
+36. What is the command we would use to push our repo up to github? git push
+
+37. Walk me through Lambda's git flow. 
+    1.Fork repo
+    2.Clone repo
+    3.Make changes: git status,
+    4.Track changes: git add . or -A or -all
+    5.Save changes: git commit -m "with message detailing changes to the project"
+    6.Upload to Github: git push  
+
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element? Block elements create a new line break and takes
+       the up the full width of a page. An inline element doesn't cause a line break and stays within the parameters of their 
+       opening and closing tags.
+
+    2. What happens when an element is positioned absolutely? The element is postioned relative to its nearest postioned
+       ancestor. NO space is created for the element in the layout and is removed from document flow.
+
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width?
+
+    4. Name 3 elements that are display block by default, 2 elements that are display inline by default and 1 element that
+       is display inline-block by default? Blocks: <p>/<h1>/<div>  Inline:<span>/<a>  Inline-Block: <img>
+       
+    5. In your own words, explain the box model. What is the fix for the box model?
